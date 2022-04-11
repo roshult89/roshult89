@@ -1,0 +1,7 @@
+plugins {
+    id "com.gradle.enterprise" version "3.6.3"
+}
+
+rootProject.name = 'taxiride-alarm-lab'
+include 'taxi-event-generator'
+include 'taxi-alarm-detector'
