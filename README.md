@@ -1,6 +1,6 @@
-##Flink course home assignment
+## Flink course home assignment
 
-#comments
+# comments
 Since I only have a mac M1 available, I have some problems with my docker-images from time to time.
 Got most of it to work with docker, but not flink itself.
 Instead I followed https://nightlies.apache.org/flink/flink-docs-release-1.14/docs/try-flink/local_installation/ to run it locally.
