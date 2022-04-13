@@ -11,11 +11,11 @@ If runned by another in docker "bootstrap-servers" and "db-url" can be given as 
 If not an arm processor is used, the images in docker-compose file should probably be updated for the correct processor,
 i.e. by removing the platform flag
 
-#Solution
+# Solution
 I used my own solution from  https://github.com/apache/flink-training/tree/release-1.14/long-ride-alerts,
 since it worked with all tests. I also think my solution handle the leaks mentioned in the discussion in the repo.
 
-#Way to start
+# Way to start
 run
 ```
 docker compose up -d
@@ -36,6 +36,6 @@ upload jars from generator and detecter with name *snapshot-ALL.jar
 
 verify entries by connecting to db by preferred tool (I used Intellij) and look into table taxi_alarm
 
-db-url: jdbc:postgresql://localhost:5432/postgres
-db-username: postgres
-db-password
+- db-url: jdbc:postgresql://localhost:5432/postgres
+- db-username: postgres
+- db-password: postgres
